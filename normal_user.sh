@@ -2,9 +2,9 @@
 
 pip install --upgrade pip
 
-python -m pip install pwntools request pycrypto
-python -m pip install ipython
-python3 -m pip install ipython
+python -m pip install --user pwntools request pycrypto
+python -m pip install --user ipython
+python3 -m pip install --user ipython
 
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
