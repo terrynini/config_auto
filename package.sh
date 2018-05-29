@@ -9,7 +9,7 @@ fi
 apt-get -y update
 apt-get -y upgrade
 
-apt-get -y install git nmap gdb gdbserver make
+apt-get -y install git nmap gdb gdbserver make vim zsh
 apt-get install -y git fonts-powerline
 apt-get install -y gcc g++ nasm
 apt-get install -y build-essential
