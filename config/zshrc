@@ -61,6 +61,11 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# for Ubuntu
+. /usr/share/autojump/autojump.sh
+# for MacOS
+# [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
