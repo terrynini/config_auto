@@ -103,3 +103,4 @@ alias   avdmanager='$HOME/Library/Android/sdk/tools/bin/avdmanager'
 alias   emulator='$HOME/Library/Android/sdk/tools/emulator'
 alias   ipython='python -m IPython'
 alias   ipython3='python3 -m IPython'
+alias   klee="docker run --rm -v `pwd`:/ctf -it --ulimit='stack=-1:-1' klee/klee"

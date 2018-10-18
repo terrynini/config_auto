@@ -10,7 +10,7 @@ apt-get -y update
 apt-get -y upgrade
 
 apt-get -y install git nmap gdb gdbserver make vim zsh
-apt-get install -y git fonts-powerline
+apt-get install -y fonts-powerline
 apt-get install -y gcc g++ nasm
 apt-get install -y python2 python3 python-dev
 apt-get install -y python-pip python3-pip python-dev build-essential 
