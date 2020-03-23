@@ -11,6 +11,7 @@ apt-get -y upgrade
 
 apt-get -y install git nmap gdb gdbserver make vim zsh curl net-tools wget
 apt-get install -y fonts-powerline 
+apt-get install -y locales
 apt-get install -y gcc g++ nasm
 apt-get install -y python3 python3-dev python3-pip
 apt-get install -y build-essential fasd

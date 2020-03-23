@@ -3,6 +3,7 @@
 # setup python
 pip3 install --upgrade pip
 pip3 install --user  pwntools request pycrypto ipython
+pip3 install --user keystone-engine ropper keystone
 
 # setup zsh 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
