@@ -14,7 +14,7 @@ git clone https://github.com/scwuaptx/Pwngdb.git  ~/Pwngdb
 git clone https://github.com/pwndbg/pwndbg ~/pwngdb
 wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
 git clone https://github.com/longld/peda.git ~/peda
-cd ~/pwndbg
+cd ~/pwngdb
 ./setup.sh
 
 # replace config
