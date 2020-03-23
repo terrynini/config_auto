@@ -1,5 +1,7 @@
 #!/bin/bash                                                                                                
 
+export NINI_DIR=$(dirname "$(readlink -f "$0")")
+
 # setup python
 pip3 install --upgrade pip
 pip3 install --user  pwntools request pycrypto ipython
@@ -19,7 +21,7 @@ cd ~/pwngdb
 
 # replace config
 
-cd "$(dirname "$0")"
+cd $NINI_DIR 
 cat config/zshrc >> $HOME/.zshrc
 cat config/tmux.conf >> $HOME/.tmux.conf
 cp config/vimrc $HOME/.vimrc
