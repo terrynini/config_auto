@@ -19,6 +19,7 @@ cd ~/pwngdb
 
 # replace config
 
+cd "$(dirname "$0")"
 cat config/zshrc >> $HOME/.zshrc
 cat config/tmux.conf >> $HOME/.tmux.conf
 cp config/vimrc $HOME/.vimrc
