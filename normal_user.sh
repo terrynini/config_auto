@@ -28,6 +28,5 @@ sudo make install
 
 cat config/zshrc >> $HOME/.zshrc
 cp config/vimrc $HOME/.vimrc
-
-# gdb config
+cp config/gdbinit $HOME/.gdbinit
  
