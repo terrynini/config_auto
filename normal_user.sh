@@ -20,6 +20,7 @@ cd ~/pwndbg
 # replace config
 
 cat config/zshrc >> $HOME/.zshrc
+cat config/tmux.conf >> $HOME/.tmux.conf
 cp config/vimrc $HOME/.vimrc
 cp config/gdbinit $HOME/.gdbinit
 
