@@ -16,6 +16,12 @@ git clone https://github.com/longld/peda.git ~/peda
 cd ~/pwndbg
 ./setup.sh
 
+# replace config
+
+cat config/zshrc >> $HOME/.zshrc
+cp config/vimrc $HOME/.vimrc
+cp config/gdbinit $HOME/.gdbinit
+
 # install hashcat
 git clone https://github.com/hashcat/hashcat.git
 cd hashcat
@@ -24,9 +30,4 @@ git submodule update
 make
 sudo make install
 
-# replace config
-
-cat config/zshrc >> $HOME/.zshrc
-cp config/vimrc $HOME/.vimrc
-cp config/gdbinit $HOME/.gdbinit
  

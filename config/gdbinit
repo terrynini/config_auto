@@ -17,9 +17,9 @@ define hook-run
 end
 
 define gef
-    source /home/terrynini38514/.gdbinit-gef.py
+    source ~/.gdbinit-gef.py
 end
 
 #set auto-load safe-path /
-source /home/terrynini38514/pwndbg/gdbinit.py
+source ~/pwndbg/gdbinit.py
 #set auto-load safe-path /
