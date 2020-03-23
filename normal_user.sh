@@ -24,12 +24,3 @@ cat config/tmux.conf >> $HOME/.tmux.conf
 cp config/vimrc $HOME/.vimrc
 cp config/gdbinit $HOME/.gdbinit
 
-# install hashcat
-git clone https://github.com/hashcat/hashcat.git
-cd hashcat
-git submodule init
-git submodule update
-make
-sudo make install
-
- 
