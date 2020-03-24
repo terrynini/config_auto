@@ -17,7 +17,7 @@ apt-get install -y python3 python3-dev python3-pip ipython3
 apt-get install -y build-essential fasd
 apt-get install -y libc6-i386 #make ubuntu 64bit able to execut ELF32
 apt-get install -y silversearcher-ag #global
-apt-get install -y libcurl4-openssl-dev
+apt-get install -y libcurl4-openssl-dev  libssl-dev  tmux
 
 chsh -s /bin/zsh
 

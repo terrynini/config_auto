@@ -4,7 +4,7 @@ export NINI_DIR=$(dirname "$(readlink -f "$0")")
 
 # setup python
 python3 -m pip install --upgrade pip
-python3 -m pip install --user  pwntools request pycrypto ipython
+python3 -m pip install --user  pwntools request pycrypto
 python3 -m pip install --user keystone-engine ropper keystone
 
 # setup zsh 
