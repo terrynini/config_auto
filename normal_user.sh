@@ -3,9 +3,9 @@
 export NINI_DIR=$(dirname "$(readlink -f "$0")")
 
 # setup python
-pip3 install --upgrade pip
-pip3 install --user  pwntools request pycrypto ipython
-pip3 install --user keystone-engine ropper keystone
+python3 -m pip install --upgrade pip
+python3 -m pip install --user  pwntools request pycrypto ipython
+python3 -m pip install --user keystone-engine ropper keystone
 
 # setup zsh 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
@@ -26,4 +26,3 @@ cat config/zshrc >> $HOME/.zshrc
 cat config/tmux.conf >> $HOME/.tmux.conf
 cp config/vimrc $HOME/.vimrc
 cp config/gdbinit $HOME/.gdbinit
-
