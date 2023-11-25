@@ -6,4 +6,3 @@ if [ "$EUID" -ne 0 ]; then
 fi                         
                            
 ./package.sh               
-#sudo -u terrynini38514 ./normal_user.sh 

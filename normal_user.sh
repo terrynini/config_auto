@@ -4,19 +4,16 @@ export NINI_DIR=$(dirname "$(readlink -f "$0")")
 
 # setup python
 python3 -m pip install --upgrade pip
-python3 -m pip install --user  pwntools request pycrypto
-python3 -m pip install --user keystone-engine ropper keystone
+python3 -m pip install --user  pwntools requests
 
 # setup zsh 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
 # setup gdb
-git clone https://github.com/scwuaptx/Pwngdb.git  ~/Pwngdb
-git clone https://github.com/pwndbg/pwndbg ~/pwngdb
+git clone https://github.com/pwndbg/pwndbg ~/pwndbg
 wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
-git clone https://github.com/longld/peda.git ~/peda
-cd ~/pwngdb
+cd ~/pwndbg
 ./setup.sh
 
 # replace config

@@ -6,18 +6,16 @@ if [ "$EUID" -ne 0 ]; then
     exit
 fi
 
-apt-get -y update
-apt-get -y upgrade
+apt -y update
+apt -y upgrade
 
-apt-get -y install git nmap gdb gdbserver make vim zsh curl net-tools wget
-apt-get install -y fonts-powerline 
-apt-get install -y locales
-apt-get install -y gcc g++ nasm 
-apt-get install -y python3 python3-dev python3-pip ipython3
-apt-get install -y build-essential fasd
-apt-get install -y libc6-i386 #make ubuntu 64bit able to execut ELF32
-apt-get install -y silversearcher-ag #global
-apt-get install -y libcurl4-openssl-dev  libssl-dev  tmux
+apt -y install git nmap gdb gdbserver make vim zsh curl net-tools wget
+apt install -y fonts-powerline 
+apt install -y locales
+apt install -y gcc g++ nasm 
+apt install -y python3 python3-dev python3-pip ipython3
+apt install -y build-essential
+apt install -y libc6-i386 #make ubuntu 64bit able to execut ELF32
+apt install -y tmux neovim
 
 chsh -s /bin/zsh
-
