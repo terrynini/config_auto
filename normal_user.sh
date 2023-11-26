@@ -12,7 +12,7 @@ curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | 
 
 # setup gdb
 git clone https://github.com/pwndbg/pwndbg ~/pwndbg
-bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
+wget -O ~/.gdbinit-gef.py -q https://gef.blah.cat/py
 cd ~/pwndbg
 ./setup.sh
 
