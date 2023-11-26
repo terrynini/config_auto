@@ -12,7 +12,7 @@ curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | 
 
 # setup gdb
 git clone https://github.com/pwndbg/pwndbg ~/pwndbg
-wget -q -O- https://github.com/hugsy/gef/raw/master/scripts/gef.sh | sh
+bash -c "$(curl -fsSL https://gef.blah.cat/sh)"
 cd ~/pwndbg
 ./setup.sh
 

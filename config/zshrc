@@ -9,5 +9,3 @@ alias   klee="docker run --rm -v `pwd`:/ctf -it --ulimit='stack=-1:-1' klee/klee
 #alias   vs='open -a "Visual Studio Code"'
 #alias   avdmanager='$HOME/Library/Android/sdk/tools/bin/avdmanager'
 #alias   emulator='$HOME/Library/Android/sdk/tools/emulator'
-
-eval "$(fasd --init auto)"
