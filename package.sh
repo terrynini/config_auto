@@ -9,7 +9,7 @@ fi
 apt -y update
 apt -y upgrade
 
-apt -y install git nmap gdb gdbserver make vim zsh curl net-tools wget
+apt -y install git nmap gdb gdbserver make vim zsh curl net-tools wget file
 apt install -y fonts-powerline 
 apt install -y locales
 apt install -y gcc g++ nasm 
