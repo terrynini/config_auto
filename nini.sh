@@ -1,3 +1,4 @@
 #!/bin/bash
 
 echo "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAAHAHAHAHAHA"
+nc --help
